@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_search_book"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="@string/nb_menu_action_search" />
+        <item
+            android:id="@+id/action_scan_local_book"
+            android:icon="@drawable/ic_menu_scan"
+            android:title="@string/nb_menu_action_scan" />
+    </group>
+    <group
+        android:id="@+id/nav_commnunicate"
+        android:title="Communicate">
+        <item
+            android:id="@+id/action_download"
+            android:icon="@drawable/ic_menu_download"
+            android:title="@string/nb_menu_action_download" />
+
+        <item
+            android:id="@+id/action_feedback"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="@string/nb_menu_action_feedback" />
+        <item
+            android:id="@+id/action_share"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="@string/nb_menu_action_share" />
+    </group>
+    <group android:id="@+id/nav_about_setting">
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="@string/nb_menu_action_setting" />
+    </group>
+</menu>
